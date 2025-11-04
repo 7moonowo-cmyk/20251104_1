@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>測驗系統</title>
+  <style>
+    /* 使用系統字型，避免外部字型載入失敗 */
+    html,body { margin:0; padding:0; background:#0b1020; color:#fff; font-family: sans-serif; height:100%; }
+    canvas { display:block; }
+    /* 結果區塊確保可滾動且最下方為黑色 */
+    .result-box { background:#000; color:#fff; padding:16px; overflow:auto; max-height:70vh; }
+    /* DOM 元件統一字型 */
+    .quiz-ui { color:#fff; }
+    button { font-family:'Chiron_GoRound_TC', sans-serif; }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="common.js"></script>
+  <script src="quiz.js"></script>
+</head>
+<body>
+</body>
+</html>
