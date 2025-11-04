@@ -1,0 +1,21 @@
+{
+  "name": "js-quiz-project",
+  "version": "1.0.0",
+  "description": "A JavaScript quiz application that reads questions from a CSV file.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step not defined yet.'"
+  },
+  "dependencies": {
+    "papaparse": "^5.3.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "quiz",
+    "javascript",
+    "csv"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
