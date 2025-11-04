@@ -1,0 +1,21 @@
+{
+  "name": "quiz-project",
+  "version": "1.0.0",
+  "description": "A quiz application that allows users to take quizzes and view results.",
+  "main": "src/quiz.js",
+  "scripts": {
+    "start": "live-server .",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'Test step not defined'"
+  },
+  "keywords": [
+    "quiz",
+    "javascript",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
